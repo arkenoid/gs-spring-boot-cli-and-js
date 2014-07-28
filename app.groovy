@@ -1,3 +1,4 @@
+@GrabResolver(name='custom', root='http://localhost:8081/artifactory/remote-repos', m2Compatible=true)
 @Grab("org.webjars:jquery:2.0.3-1") // this will automatically fetch jquery
 @Grab("thymeleaf-spring4")
 
